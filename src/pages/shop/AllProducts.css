@@ -1,0 +1,135 @@
+
+body{
+  min-height: 100vh;
+
+  position: relative;
+  }
+.allDetails{
+
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+img{
+  text-align: center;
+  margin-top: 5px;
+}
+.big{
+  width: 90%;
+  min-height: 120vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid blue; */
+  margin: 0 auto;
+
+}
+.details{
+  margin-top: 20px;
+}
+.details p{
+  margin-top: 10px;
+}
+
+
+
+
+
+/* CSS */
+.button-4 {
+  appearance: none;
+  background-color: #2B3467;
+  border: 2px solid #2B3467;
+  border-radius: 6px;
+  /* box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset; */
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  margin-top: 5px;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  color: #2B3467;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+input{
+  background-color: white !important;
+  width: 20%;
+  margin: 0 5px;
+  color: black !important;
+}
+input:hover{
+  background-color: white !important;
+  cursor: text;
+
+
+}
+.total{
+
+  position: absolute;
+  bottom: -100px;
+  left: 0px;
+  width: 99%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+
+  
+}
+.total p,.btn{
+  position: relative;
+  top: 20px;
+}
+.btn{
+  margin: 0 10px;
+}
+.total p{
+  margin: 2px solid #2B3467;
+  padding: 6px;
+}
